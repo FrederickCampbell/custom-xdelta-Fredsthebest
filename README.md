@@ -1,11 +1,13 @@
 # Custom XDelta Patch – Fredsthebest
 
-This repo hosts an `.xdelta` patch I created.  
-⚠️ **Note**: This repo does **not** distribute ROMs/ISOs. You must legally own the original game.  
+This repository hosts `.xdelta` patches I create.
+**Note:** This repository does **not** distribute ROMs/ISOs. You must legally own the original game to apply this patch.
 
 ## Usage
-1. Download the `.xdelta` patch from [Releases](./releases).
-2. Apply it using any xdelta patcher.
+1. Download the `.xdelta` patch from the [Releases](../../releases) page.
+2. Apply the patch using any compatible xdelta patcher (e.g. `xdelta3`)
 
-## License
-MIT License – free to use, share, or modify. Just don’t distribute copyrighted ROMs.
+Example command with `xdelta3`:
+
+```bash
+xdelta3 -d -s "original.iso" "patch.xdelta" "patched.iso"
